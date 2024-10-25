@@ -20,7 +20,7 @@ def process_ifc_file(ifc_folder_path, ifc_file_name):
     lbdconverter = IFCtoLBDConverter("https://example.domain.de/", 3)
     
     props = ConversionProperties()
-    props.setHasGeometry(True)
+    props.setHasGeometry(False)
     props.setHasBuildingProperties(True)
     props.setHasBuildingElements(True)
     props.setHasUnits(True)

@@ -42,7 +42,7 @@ jobs:
 
       - name: Push changes to GitHub
         run: |
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/sumwas/BIM-Casestudy.git HEAD:main
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/sumwas/bim-casestudy-SMRVconvenience.git HEAD:main
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
